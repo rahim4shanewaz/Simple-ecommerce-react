@@ -1,0 +1,18 @@
+.shop-body{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
+   
+}
+.products{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.cart{
+    padding: 20px;
+    height: 500px;
+    background-color: bisque;
+}
